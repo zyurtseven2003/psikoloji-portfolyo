@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Zeynep Yurtseven'in portfolyo iletişim sayfası.">
+
+  <title>İletişim | Zeynep Yurtseven</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <a class="logo" href="index.html">ZY.</a>
+
+    <button class="menu-toggle" type="button"
+
+      aria-label="Menüyü aç"
+
+      aria-expanded="false"
+
+      aria-controls="site-nav">☰</button>
+
+    <nav id="site-nav" aria-label="Ana menü">
+
+      <a href="index.html">Ana Sayfa</a>
+
+      <a href="hakkimda.html">Hakkımda</a>
+
+      <a href="projeler.html">Projeler</a>
+
+      <a href="iletisim.html" aria-current="page">İletişim</a>
+
+    </nav>
+
+    <button id="theme-toggle" type="button"
+
+      aria-label="Karanlık modu aç">☾</button>
+
+  </header>
+
+  <main class="intro">
+
+    <p class="eyebrow">İLETİŞİM</p>
+
+    <h1>Benimle İletişime Geçin</h1>
+
+    <p>
+
+      Çalışmalarım hakkında bilgi almak veya
+
+      profesyonel bağlantı kurmak için
+
+      aşağıdaki bağlantıları kullanabilirsiniz.
+
+    </p>
+
+    <h2>Profesyonel Bağlantılar</h2>
+
+    <p>
+
+      <a href="https://github.com/zyurtseven2003"
+
+         target="_blank" rel="noopener noreferrer">
+
+        GitHub Profilim
+
+      </a>
+
+    </p>
+
+    <h2>İletişim Formu</h2>
+
+    <p>
+
+      Bu form, kodlama dersi kapsamında hazırlanmış
+
+      bir doğrulama örneğidir.
+
+      Gerçek mesaj göndermez.
+
+    </p>
+
+    <form id="contact-form">
+
+      <div class="form-group">
+
+        <label for="contact-name">Ad Soyad</label>
+
+        <input id="contact-name" name="name"
+
+          type="text" required maxlength="80"
+
+          autocomplete="name">
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="contact-email">E-posta</label>
+
+        <input id="contact-email" name="email"
+
+          type="email" required maxlength="120"
+
+          autocomplete="email">
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="contact-message">Mesaj</label>
+
+        <textarea id="contact-message" name="message"
+
+          rows="5" required maxlength="1000"></textarea>
+
+      </div>
+
+      <button class="button" type="submit">
+
+        Formu Kontrol Et
+
+      </button>
+
+      <p id="form-feedback" role="status"
+
+        aria-live="polite"></p>
+
+    </form>
+
+    <p class="privacy-note">
+
+      Gizlilik: Bu form yalnızca tarayıcı içinde
+
+      doğrulama yapar. Bilgiler bir sunucuya
+
+      gönderilmez veya saklanmaz.
+
+      Bu sitede üçüncü taraf izleme betiği
+
+      kullanılmamaktadır.
+
+    </p>
+
+  </main>
+
+  <footer>
+
+    <p>© 2026 Zeynep Yurtseven | Kişisel Portfolyo</p>
+
+  </footer>
+
+</body>
+
+</html>
