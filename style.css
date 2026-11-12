@@ -1,6 +1,4 @@
 
-
-
 :root {
 
   --bg: #f7f3ec;
@@ -327,6 +325,72 @@ body.dark-mode .button {
 
   .menu-toggle {
 
-    display: bl
+    display: block;
 
-...
+  }
+
+  nav {
+
+    display: none;
+
+    width: 100%;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+  }
+
+  nav.open {
+
+    display: flex;
+
+  }
+
+  .hero {
+
+    flex-direction: column-reverse;
+
+    text-align: center;
+
+    padding: 45px 6%;
+
+  }
+
+  .hero-content {
+
+    width: 100%;
+
+  }
+
+  .avatar {
+
+    width: 150px;
+
+    height: 150px;
+
+    font-size: 44px;
+
+  }
+
+  h1 {
+
+    font-size: 36px;
+
+  }
+
+  .intro {
+
+    padding: 45px 6%;
+
+  }
+
+}
+
+
+
+  
+
+
+ 
+
