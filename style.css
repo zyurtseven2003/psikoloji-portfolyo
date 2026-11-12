@@ -476,5 +476,61 @@ body.dark-mode .button {
 }  
 
 
- 
+ .form-group {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-bottom: 20px;
+
+  max-width: 550px;
+
+}
+
+.form-group input,
+
+.form-group textarea {
+
+  padding: 12px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  background: var(--bg);
+
+  color: var(--text);
+
+  font: inherit;
+
+}
+
+.form-group label {
+
+  font-weight: bold;
+
+}
+
+.privacy-note {
+
+  margin-top: 35px;
+
+  padding: 18px;
+
+  border-left: 3px solid var(--accent);
+
+  background: var(--bg);
+
+  font-size: 14px;
+
+}
+
+#form-feedback {
+
+  font-weight: bold;
+
+}
 
