@@ -1,0 +1,1 @@
+# psikoloji-portfolyo
