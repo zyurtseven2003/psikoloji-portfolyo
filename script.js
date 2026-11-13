@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const dark = document.body.classList.contains("dark-mode");
 
       themeButton.textContent = dark ? "☀️" : "☾";
-
+themeButton.setAttribute("aria-pressed", String(dark));
       themeButton.setAttribute(
 
         "aria-label",
